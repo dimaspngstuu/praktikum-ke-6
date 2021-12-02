@@ -1,0 +1,52 @@
+h1 {
+    font-family: fantasy;
+    text-align: center;
+}
+.container {
+    width: 1000px;
+    height: 500px;
+    background-color: magenta;
+    border: 4px solid red;
+    margin: 0 auto;
+}
+
+header {
+    background-color: skyblue;
+    height: 50px;
+    width: 90%;
+    margin:auto 
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.aside {
+    width:200px;
+    height: 400px;
+    background-color: slategrey;
+    
+    
+}
+
+.article {
+    width: 700px;
+    height: 400px;
+    background-color: springgreen;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+img {
+    height: 33%;
+    width:30%;
+}
+
+footer {
+    background-color:tomato;
+    height: 50px;
+    width: 90%;
+    margin:auto 
+}
